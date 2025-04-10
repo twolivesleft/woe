@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232E085E2C512E9A0051AA36 /* Runtime in Frameworks */ = {isa = PBXBuildFile; productRef = 232E085D2C512E9A0051AA36 /* Runtime */; };
+		23C455762DA2BE2C00C8D8BA /* FSEX302.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23C455752DA2BE2C00C8D8BA /* FSEX302.ttf */; };
+		DB0F615922709F060024AE28 /* TerminalofWoe.codea in Resources */ = {isa = PBXBuildFile; fileRef = DB0F615822709F060024AE28 /* TerminalofWoe.codea */; };
+		DB0F615B2270A0FB0024AE28 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = DB0F615A2270A0FB0024AE28 /* Assets */; };
+		DB83FB30223DBDA2005750D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83FB2F223DBDA2005750D2 /* AppDelegate.swift */; };
+		DB83FB32223DBDA2005750D2 /* TerminalofWoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB83FB31223DBDA2005750D2 /* TerminalofWoeViewController.swift */; };
+		DB83FB37223DBDA3005750D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB83FB36223DBDA3005750D2 /* Assets.xcassets */; };
+		DB83FB3A223DBDA3005750D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB83FB38223DBDA3005750D2 /* LaunchScreen.storyboard */; };
+		DB83FB54223DBF71005750D2 /* ProjectAddon.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB83FB53223DBF71005750D2 /* ProjectAddon.mm */; };
+		DB83FB7B223DC2E5005750D2 /* ProjectModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB83FB7A223DC2E5005750D2 /* ProjectModule.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB83FB4D223DBF0D005750D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23C455752DA2BE2C00C8D8BA /* FSEX302.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FSEX302.ttf; sourceTree = "<group>"; };
+		DB0F615822709F060024AE28 /* TerminalofWoe.codea */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TerminalofWoe.codea; sourceTree = "<group>"; };
+		DB0F615A2270A0FB0024AE28 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		DB83FB2C223DBDA2005750D2 /* Woe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB83FB2F223DBDA2005750D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB83FB31223DBDA2005750D2 /* TerminalofWoeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalofWoeViewController.swift; sourceTree = "<group>"; };
+		DB83FB36223DBDA3005750D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB83FB39223DBDA3005750D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB83FB3B223DBDA3005750D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB83FB51223DBF71005750D2 /* TerminalofWoe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TerminalofWoe-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB83FB52223DBF71005750D2 /* ProjectAddon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectAddon.h; sourceTree = "<group>"; };
+		DB83FB53223DBF71005750D2 /* ProjectAddon.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ProjectAddon.mm; sourceTree = "<group>"; };
+		DB83FB56223DC01C005750D2 /* Module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
+		DB83FB57223DC01C005750D2 /* ModuleIncludes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleIncludes.h; sourceTree = "<group>"; };
+		DB83FB5A223DC102005750D2 /* CppFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppFunction.h; sourceTree = "<group>"; };
+		DB83FB5B223DC102005750D2 /* LuaType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaType.h; sourceTree = "<group>"; };
+		DB83FB5C223DC102005750D2 /* CppBindModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppBindModule.h; sourceTree = "<group>"; };
+		DB83FB5D223DC102005750D2 /* CppBindClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppBindClass.h; sourceTree = "<group>"; };
+		DB83FB5E223DC102005750D2 /* CppObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppObject.h; sourceTree = "<group>"; };
+		DB83FB5F223DC102005750D2 /* LuaException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaException.h; sourceTree = "<group>"; };
+		DB83FB60223DC102005750D2 /* CppInvoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppInvoke.h; sourceTree = "<group>"; };
+		DB83FB61223DC102005750D2 /* CppArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppArg.h; sourceTree = "<group>"; };
+		DB83FB62223DC102005750D2 /* LuaCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaCompat.h; sourceTree = "<group>"; };
+		DB83FB63223DC102005750D2 /* LuaContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaContext.h; sourceTree = "<group>"; };
+		DB83FB64223DC102005750D2 /* QtLuaIntf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QtLuaIntf.h; sourceTree = "<group>"; };
+		DB83FB65223DC102005750D2 /* LuaState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaState.h; sourceTree = "<group>"; };
+		DB83FB66223DC102005750D2 /* LuaRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaRef.h; sourceTree = "<group>"; };
+		DB83FB67223DC102005750D2 /* LuaIntf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaIntf.h; sourceTree = "<group>"; };
+		DB83FB79223DC2E5005750D2 /* ProjectModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectModule.h; sourceTree = "<group>"; };
+		DB83FB7A223DC2E5005750D2 /* ProjectModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ProjectModule.mm; sourceTree = "<group>"; };
+		DBE4204D260B8B0D002BF271 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB83FB29223DBDA2005750D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232E085E2C512E9A0051AA36 /* Runtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB83FB23223DBDA2005750D2 = {
+			isa = PBXGroup;
+			children = (
+				DB0F615822709F060024AE28 /* TerminalofWoe.codea */,
+				23C455752DA2BE2C00C8D8BA /* FSEX302.ttf */,
+				DB0F615A2270A0FB0024AE28 /* Assets */,
+				DB83FB2E223DBDA2005750D2 /* TerminalofWoe */,
+				DB83FB2D223DBDA2005750D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB83FB2D223DBDA2005750D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB83FB2C223DBDA2005750D2 /* Woe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB83FB2E223DBDA2005750D2 /* TerminalofWoe */ = {
+			isa = PBXGroup;
+			children = (
+				DB83FB45223DBE5C005750D2 /* Addon */,
+				DBE4204D260B8B0D002BF271 /* README.md */,
+				DB83FB2F223DBDA2005750D2 /* AppDelegate.swift */,
+				DB83FB31223DBDA2005750D2 /* TerminalofWoeViewController.swift */,
+				DB83FB51223DBF71005750D2 /* TerminalofWoe-Bridging-Header.h */,
+				DB83FB36223DBDA3005750D2 /* Assets.xcassets */,
+				DB83FB38223DBDA3005750D2 /* LaunchScreen.storyboard */,
+				DB83FB3B223DBDA3005750D2 /* Info.plist */,
+			);
+			path = TerminalofWoe;
+			sourceTree = "<group>";
+		};
+		DB83FB45223DBE5C005750D2 /* Addon */ = {
+			isa = PBXGroup;
+			children = (
+				DB83FB55223DBFE1005750D2 /* Module */,
+				DB83FB52223DBF71005750D2 /* ProjectAddon.h */,
+				DB83FB53223DBF71005750D2 /* ProjectAddon.mm */,
+			);
+			path = Addon;
+			sourceTree = "<group>";
+		};
+		DB83FB55223DBFE1005750D2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				DB83FB58223DC102005750D2 /* LuaIntf */,
+				DB83FB56223DC01C005750D2 /* Module.h */,
+				DB83FB57223DC01C005750D2 /* ModuleIncludes.h */,
+				DB83FB79223DC2E5005750D2 /* ProjectModule.h */,
+				DB83FB7A223DC2E5005750D2 /* ProjectModule.mm */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		DB83FB58223DC102005750D2 /* LuaIntf */ = {
+			isa = PBXGroup;
+			children = (
+				DB83FB59223DC102005750D2 /* impl */,
+				DB83FB62223DC102005750D2 /* LuaCompat.h */,
+				DB83FB63223DC102005750D2 /* LuaContext.h */,
+				DB83FB64223DC102005750D2 /* QtLuaIntf.h */,
+				DB83FB65223DC102005750D2 /* LuaState.h */,
+				DB83FB66223DC102005750D2 /* LuaRef.h */,
+				DB83FB67223DC102005750D2 /* LuaIntf.h */,
+			);
+			path = LuaIntf;
+			sourceTree = "<group>";
+		};
+		DB83FB59223DC102005750D2 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				DB83FB5A223DC102005750D2 /* CppFunction.h */,
+				DB83FB5B223DC102005750D2 /* LuaType.h */,
+				DB83FB5C223DC102005750D2 /* CppBindModule.h */,
+				DB83FB5D223DC102005750D2 /* CppBindClass.h */,
+				DB83FB5E223DC102005750D2 /* CppObject.h */,
+				DB83FB5F223DC102005750D2 /* LuaException.h */,
+				DB83FB60223DC102005750D2 /* CppInvoke.h */,
+				DB83FB61223DC102005750D2 /* CppArg.h */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB83FB2B223DBDA2005750D2 /* TerminalofWoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB83FB3E223DBDA3005750D2 /* Build configuration list for PBXNativeTarget "TerminalofWoe" */;
+			buildPhases = (
+				DB83FB28223DBDA2005750D2 /* Sources */,
+				DB83FB29223DBDA2005750D2 /* Frameworks */,
+				DB83FB2A223DBDA2005750D2 /* Resources */,
+				DB83FB4D223DBF0D005750D2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerminalofWoe;
+			productName = TerminalofWoe;
+			productReference = DB83FB2C223DBDA2005750D2 /* Woe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB83FB24223DBDA2005750D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Two Lives Left";
+				TargetAttributes = {
+					DB83FB2B223DBDA2005750D2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = DB83FB27223DBDA2005750D2 /* Build configuration list for PBXProject "TerminalofWoe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB83FB23223DBDA2005750D2;
+			packageReferences = (
+				232E085C2C512E9A0051AA36 /* XCRemoteSwiftPackageReference "Runtime" */,
+			);
+			productRefGroup = DB83FB2D223DBDA2005750D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB83FB2B223DBDA2005750D2 /* TerminalofWoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB83FB2A223DBDA2005750D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB83FB3A223DBDA3005750D2 /* LaunchScreen.storyboard in Resources */,
+				23C455762DA2BE2C00C8D8BA /* FSEX302.ttf in Resources */,
+				DB0F615B2270A0FB0024AE28 /* Assets in Resources */,
+				DB83FB37223DBDA3005750D2 /* Assets.xcassets in Resources */,
+				DB0F615922709F060024AE28 /* TerminalofWoe.codea in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB83FB28223DBDA2005750D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB83FB32223DBDA2005750D2 /* TerminalofWoeViewController.swift in Sources */,
+				DB83FB54223DBF71005750D2 /* ProjectAddon.mm in Sources */,
+				DB83FB30223DBDA2005750D2 /* AppDelegate.swift in Sources */,
+				DB83FB7B223DC2E5005750D2 /* ProjectModule.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB83FB38223DBDA3005750D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB83FB39223DBDA3005750D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB83FB3C223DBDA3005750D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		DB83FB3D223DBDA3005750D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		DB83FB3F223DBDA3005750D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = G5S3RZ43N7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TerminalofWoe/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = TerminalofWoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twolivesleft.woe;
+				PRODUCT_NAME = Woe;
+				SWIFT_OBJC_BRIDGING_HEADER = "TerminalofWoe/TerminalofWoe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/TerminalofWoe/Addon/Module";
+			};
+			name = Debug;
+		};
+		DB83FB40223DBDA3005750D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = G5S3RZ43N7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TerminalofWoe/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = TerminalofWoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twolivesleft.woe;
+				PRODUCT_NAME = Woe;
+				SWIFT_OBJC_BRIDGING_HEADER = "TerminalofWoe/TerminalofWoe-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/TerminalofWoe/Addon/Module";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB83FB27223DBDA2005750D2 /* Build configuration list for PBXProject "TerminalofWoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB83FB3C223DBDA3005750D2 /* Debug */,
+				DB83FB3D223DBDA3005750D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB83FB3E223DBDA3005750D2 /* Build configuration list for PBXNativeTarget "TerminalofWoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB83FB3F223DBDA3005750D2 /* Debug */,
+				DB83FB40223DBDA3005750D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		232E085C2C512E9A0051AA36 /* XCRemoteSwiftPackageReference "Runtime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twolivesleft/Runtime.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		232E085D2C512E9A0051AA36 /* Runtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 232E085C2C512E9A0051AA36 /* XCRemoteSwiftPackageReference "Runtime" */;
+			productName = Runtime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DB83FB24223DBDA2005750D2 /* Project object */;
+}

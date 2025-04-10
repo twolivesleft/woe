@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Buffer Order</key>
+	<array>
+		<string>Main</string>
+		<string>State</string>
+		<string>MacroData</string>
+		<string>Trace</string>
+		<string>Bucket</string>
+		<string>Model</string>
+		<string>Surge</string>
+		<string>Jitter</string>
+		<string>Mammalians</string>
+		<string>MenuSelect</string>
+		<string>Handbook</string>
+		<string>Button</string>
+		<string>Grievances</string>
+	</array>
+	<key>Tint Color</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwdVSRudWxs2A0ODxAREhMU
+	FRYXGBkaGxxfEBVVSUNvbG9yQ29tcG9uZW50Q291bnRXVUlHcmVlblZVSUJsdWVXVUlB
+	bHBoYVVOU1JHQlYkY2xhc3NVVUlSZWRcTlNDb2xvclNwYWNlEAQiPJOM7iI+QojEIgAA
+	AABPEBUtMy40ZS0wOCAwLjAxOCAwLjE5IDCAAiKzEjOgEALTHh8gISIkWiRjbGFzc25h
+	bWVYJGNsYXNzZXNbJGNsYXNzaGludHNXVUlDb2xvcqIhI1hOU09iamVjdKElV05TQ29s
+	b3IACAARABoAJAApADIANwBJAEwAUQBTAFcAXQBuAIYAjgCVAJ0AowCqALAAvQC/AMQA
+	yQDOAOYA6ADtAO8A9gEBAQoBFgEeASEBKgEsAAAAAAAAAgEAAAAAAAAAJgAAAAAAAAAA
+	AAAAAAAAATQ=
+	</data>
+</dict>
+</plist>

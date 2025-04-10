@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bindings</key>
+	<dict>
+		<key>modelViewProjection</key>
+		<string>modelMatrix() * viewMatrix() * projectionMatrix()</string>
+		<key>texture</key>
+		<string>"Cargo Bot:Codea Icon"</string>
+		<key>time</key>
+		<string>0.0</string>
+	</dict>
+</dict>
+</plist>

@@ -4,7 +4,7 @@ The work is mysterious and important.
 
 [Available on the App Store](https://apps.apple.com/us/app/terminal-of-woe/id6744296466)
 
-Terminal of Woe is a surreal data refinement experience inspired by the terminals from the TV series Severance. Built entirely on iPad and iPhone using Codea — a visual coding environment for creative projects — this app recreates the eerie, opaque task of Macrodata Refinement
+Terminal of Woe is a surreal data refinement experience inspired by the terminals from the TV series Severance. Built entirely on iPad and iPhone using Codea — a visual coding environment for creative projects — this app recreates the eerie, opaque task of Macro Data Refinement
 
 ### What is this?
 
